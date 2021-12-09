@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-09T16:07:12.868Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="mFGFXf-86I89QV69yrIp" version="15.9.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-09T16:17:30.631Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="tEBw-jRh7u9UxLsUt7dl" version="15.9.4" type="github">
   <diagram id="-gTIRzFwVV37zHlkKI5D" name="Page-1">
     <mxGraphModel dx="782" dy="379" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -14,19 +14,85 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4CpjmlWcwkXgOnOD7Qlk-1" value="Need To Run Project Directory" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="340" y="270" width="120" height="60" as="geometry" />
+          <mxGeometry x="345" y="275" width="110" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="gblVtm9ACk59_u8_TA3l-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4CpjmlWcwkXgOnOD7Qlk-3" target="gblVtm9ACk59_u8_TA3l-11">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4CpjmlWcwkXgOnOD7Qlk-3" value="AutoAI Lab System&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="340" y="430" width="120" height="60" as="geometry" />
+          <mxGeometry x="342.5" y="400" width="115" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4CpjmlWcwkXgOnOD7Qlk-5" value="Local Sytsem" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="140" y="270" width="120" height="60" as="geometry" />
+          <mxGeometry x="200" y="280" width="90" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="gblVtm9ACk59_u8_TA3l-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4CpjmlWcwkXgOnOD7Qlk-6" target="gblVtm9ACk59_u8_TA3l-16">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4CpjmlWcwkXgOnOD7Qlk-6" value="Palmetto" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="540" y="270" width="120" height="60" as="geometry" />
+          <mxGeometry x="520" y="278.75" width="70" height="47.5" as="geometry" />
         </mxCell>
         <mxCell id="gblVtm9ACk59_u8_TA3l-2" value="Solution That I Tried" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="330" y="40" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gblVtm9ACk59_u8_TA3l-3" value="Docker Image(Created) + Visual Studio" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="220" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gblVtm9ACk59_u8_TA3l-5" value="Docker Image (Repo) + Visual Studio" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="340" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gblVtm9ACk59_u8_TA3l-8" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="4CpjmlWcwkXgOnOD7Qlk-5" target="gblVtm9ACk59_u8_TA3l-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="440" as="sourcePoint" />
+            <mxPoint x="350" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gblVtm9ACk59_u8_TA3l-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4CpjmlWcwkXgOnOD7Qlk-5" target="gblVtm9ACk59_u8_TA3l-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="440" as="sourcePoint" />
+            <mxPoint x="350" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gblVtm9ACk59_u8_TA3l-10" value="Docker Image( Git Repo)&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="500" width="112.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gblVtm9ACk59_u8_TA3l-11" value="Conda Environment" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="343.75" y="495" width="112.5" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="gblVtm9ACk59_u8_TA3l-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="4CpjmlWcwkXgOnOD7Qlk-3" target="gblVtm9ACk59_u8_TA3l-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="450" as="sourcePoint" />
+            <mxPoint x="450" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gblVtm9ACk59_u8_TA3l-15" value="Using Singularity" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="190" width="100" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="gblVtm9ACk59_u8_TA3l-16" value="Using Conda Environment" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="635" y="275" width="110" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="gblVtm9ACk59_u8_TA3l-17" value="Using Python Virtual Environment" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="497.5" width="110" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="gblVtm9ACk59_u8_TA3l-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="gblVtm9ACk59_u8_TA3l-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="440" as="sourcePoint" />
+            <mxPoint x="520" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gblVtm9ACk59_u8_TA3l-20" value="Using Python Virtual Environment" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="360" width="110" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="gblVtm9ACk59_u8_TA3l-21" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="gblVtm9ACk59_u8_TA3l-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="280" as="sourcePoint" />
+            <mxPoint x="630" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gblVtm9ACk59_u8_TA3l-24" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="4CpjmlWcwkXgOnOD7Qlk-6" target="gblVtm9ACk59_u8_TA3l-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="330" as="sourcePoint" />
+            <mxPoint x="520" y="280" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
